@@ -16,7 +16,7 @@ add mount to devcontainer.json
 
 ```json
 "mounts": [
-    "source=jetbrains,target=${containerEnv:HOME}/.cache/JetBrains/RemoteDev/dist,type=volume",
-    "source=${localEnv:HOME}/.ssh/jetbrains.pub,target=${containerEnv:HOME}/.ssh/authorized_keys,type=bind,consistency=cached,readonly",
+    "source=jetbrains,target=/home/vscode/.cache/JetBrains/RemoteDev/dist,type=volume",
+    "source=${localEnv:HOME}${localEnv:USERPROFILE}/.ssh/jetbrains.pub,target=/home/vscode/.ssh/authorized_keys,type=bind,consistency=cached,readonly",
 ]
 ```
