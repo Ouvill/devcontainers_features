@@ -15,6 +15,7 @@ jobs:
         features:
           - color
           - hello
+          - jetbrains
         baseImage:
           - debian:latest
           - ubuntu:latest
