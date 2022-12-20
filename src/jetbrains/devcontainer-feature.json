@@ -1,7 +1,7 @@
 {
     "name": "JetBrains",
     "id": "jetbrains",
-    "version": "0.0.1",
-    "description": "prepare for jetbrains gateway",
+    "version": "1.0.0",
+    "description": "Create an IDE storage location for the jetbrains gateway. Prepare a mount point so that you can mount the `docker volume`.",
     "options": {}
 }
