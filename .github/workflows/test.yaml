@@ -16,6 +16,7 @@ jobs:
           - color
           - hello
           - jetbrains
+          - authorized_keys
         baseImage:
           - debian:latest
           - ubuntu:latest
