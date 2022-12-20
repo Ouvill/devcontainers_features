@@ -27,4 +27,3 @@ fi
 
 # create need folder
 su -c "mkdir -p /home/${USERNAME}/.cache/JetBrains/RemoteDev/dist" ${USERNAME}
-su -c "mkdir -p /home/${USERNAME}/.ssh" ${USERNAME}

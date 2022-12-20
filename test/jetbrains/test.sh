@@ -30,8 +30,7 @@ source dev-container-features-test-lib
 
 # Feature-specific tests
 # The 'check' command comes from the dev-container-features-test-lib.
-check "mount point for jetbrains" test 1 -eq "$(find /home -type d -name 'RemoteDev' | wc -l)"
-check "mount point for authorized key" test 1 -eq "$(find /home -type d -name '.ssh' | wc -l)"
+check "mount point for jetbrains" test -d /home/$(whoami)/.cache/JetBrains/RemoteDev/dist
 
 # Report results
 # If any of the checks above exited with a non-zero exit code, the test will fail.
