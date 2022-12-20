@@ -31,6 +31,7 @@ source dev-container-features-test-lib
 # Feature-specific tests
 # The 'check' command comes from the dev-container-features-test-lib.
 check "mount point for authorized key" test -d /home/$(whoami)/.ssh
+check "authorized key file exists" test -f /home/$(whoami)/.ssh/authorized_keys
 
 # Report results
 # If any of the checks above exited with a non-zero exit code, the test will fail.
