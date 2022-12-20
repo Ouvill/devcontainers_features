@@ -1,0 +1,13 @@
+{
+    "name": "Authorized Keys",
+    "id": "authorized_keys",
+    "version": "0.0.1",
+    "description": "copy authorized keys from github account",
+    "options": {
+        "github_account": {
+            "type": "string",
+            "description": "GitHub account name. Enter the account you want to get the public key for",
+            "default": ""
+        }
+    }
+}

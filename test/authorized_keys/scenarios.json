@@ -1,0 +1,10 @@
+{
+    "test": {
+        "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+        "features": {
+            "authorized_keys": {
+                "github_account": "ouvill"
+            }
+        }
+    }
+}
