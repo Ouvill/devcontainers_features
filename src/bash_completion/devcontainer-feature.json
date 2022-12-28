@@ -1,0 +1,7 @@
+{
+    "name": "Bash Completion",
+    "id": "bash_completion",
+    "version": "1.0.0",
+    "description": "install bash completion",
+    "options": {}
+}

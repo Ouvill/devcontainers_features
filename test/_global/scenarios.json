@@ -2,6 +2,7 @@
     "color_and_hello": {
         "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
         "features": {
+            "bash_completion": {},
             "color": {
                 "favorite": "purple"
             },
