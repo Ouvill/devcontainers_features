@@ -7,7 +7,7 @@ copy authorized keys from github account
 
 ```json
 "features": {
-    "ghcr.io/Ouvill/devcontainers_features/authorized_keys:0": {}
+    "ghcr.io/Ouvill/devcontainers_features/authorized_keys:1": {}
 }
 ```
 
